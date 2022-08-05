@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2017, 11:47:02 PM
+    Author     : MD MAHSIN AHMED
+*/
+body{
+	margin: 0px;
+}
+.mbody{
+    background-color: background;
+    border: 1px solid red;
+    
+}
+
+.header{
+    padding: 10px;
+    background-color: white;
+    height: 100px;
+}
+
+.header div{
+    display: inline-table;
+}
+
+.h_left{
+    padding-left: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border: 1px solid black;
+    width: 25%;
+}
+
+.h_right{
+    padding-left: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border: 1px solid black;
+    width: 65%;
+    float: right;
+     
+}
+
+.footer{
+    background-color: white;
+    height: 100px;
+       
+}
+.footer div{
+    display: inline-table;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    padding: 20px;
+    background-color: darkgrey;
+}
+
+.admn{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100px;
+    
+}
+
+.form{
+    width: 80%;
+    background-color: #f1f1f1;
+    margin: auto; 
+    
+}
+
+.super{
+    position: absolute;
+    top: 38px;
+    left: 685px;
+    font-size: 15px;
+    
+}
+
+.title{
+    position: relative;
+    font-size: 125px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000055;
+}
+
+.slogan{
+    position: absolute;
+    top: 117px;
+    left: 474px;
+    font-size: 19.5px;
+    color: white;
+    font-weight: bold;
+    background-color: #000055;
+    width: 300px;
+   
+}
+
+.admission{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #000055;
+    text-align: center;
+    border-radius: 10px;
+        
+}
+input{
+    padding:5px; 
+    width: 100%;
+    margin-left:2px;
+    font-size: 20px;
+}
+
+.info{
+    display: inline-table;
+    width: 100%;
+}
+
+.innerTable{
+    width: 47%;
+    display: inline-table;
+    padding: 10px;
+}
+
+.input_box{
+    padding-bottom: 10px;
+}
+
+.profession{
+    width: 95%;
+    margin-left: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Times New Roman";
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 5 5 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+    padding: 1cm;
+    border: 1px black solid;
+    height: 256mm;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+.div_left{
+    border: 1px solid red;
+    width:48%;
+    padding: 10px;
+    display: inline-table;
+}
+
+.div_right{
+    float: right;
+    border: 1px solid red;
+    width:48%;
+    padding: 10px;
+    display: inline-table;
+}

@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2017, 2:44:03 PM
+    Author     : MD MAHSIN AHMED
+*/
+
+.printInfo{
+    padding: 20px;
+    border:1px solid black;
+    height: 1190px;
+}
+.serial{
+    position: absolute;
+    top: 270px;
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px;
+}
+
+.photo{
+    position: absolute;
+    top: 270px;
+    right: 300px;
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.money_receipt{
+    position: absolute;
+    top: 318px;
+    border: 1px solid black;
+    width:40%;
+    padding: 5px;
+}
+
+.money_receipt2{
+    position: absolute;
+    top: 445px;
+    border: 1px solid black;
+    width:55.5%;
+    padding: 5px;
+}
+
+.PI{
+    position: relative;
+    top: 370px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 30%;
+    margin: auto;   
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #000055;
+    text-align: center;
+    border-radius: 10px;
+        
+}
+
+.printpersonalinfo{
+    position: relative;
+    top: 400px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.super_final_view{
+    position: absolute;
+    top: 38px;
+    left: 530px;
+    font-size: 15px;    
+}
+
+
+.slogan_final_view{
+    position: absolute;
+    top: 117px;
+    left: 132px;
+    font-size: 19.5px;
+    color: white;
+    font-weight: bold;
+    background-color: #000055;
+    width: 300px;
+   
+}

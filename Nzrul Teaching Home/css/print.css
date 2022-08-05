@@ -1,0 +1,120 @@
+.PrintPage {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+
+}
+.input_box{
+    padding: 6px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.printTitle{
+     font-size: 20px; 
+     padding-top: 20px; 
+     text-align: center; 
+     border: 1px solid red;    
+}
+
+.main_title{
+    position: relative;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.super{
+    position: absolute;
+    top: 52px;
+    left: 733px;
+    font-size:14px; 
+    font-weight:bolder;   
+}
+
+.slogan{
+    position: absolute;
+    top: 95px;
+    left: 477px;;
+    font-size: 9.8px;
+    text-align: center;
+    width: 300px;
+    font-weight:bold;
+}
+
+.signature{
+    display: inline-table;
+    border-top:1px solid black;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dateSerial{
+    display: inline-table;
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+hr.style3 {
+	border-top: 1px dashed #8c8b8b;
+}
+
+hr.style4 {
+	border-top: 1px dotted #8c8b8b;
+}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+
+hr.style6 {
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+
+hr.style7 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+
+hr.style8 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+hr.style9 {
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+hr.style10 {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}
+
